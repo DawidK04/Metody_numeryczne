@@ -1,0 +1,9 @@
+Const N = 20
+
+Sub suma_xy()
+    suma = 0
+    For i = 2 To N
+        suma = suma + Cells(i, 2) * Cells(i, 3)
+    Next i
+    Range("n1").Value = suma
+End Sub
